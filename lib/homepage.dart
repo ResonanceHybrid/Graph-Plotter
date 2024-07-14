@@ -129,7 +129,7 @@ class _HomepageState extends State<Homepage> {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       const SizedBox(height: 20),
-                      // Horizontal scrolling faculty selection
+
                       Center(
                         child: Wrap(
                           alignment: WrapAlignment.center,
@@ -261,12 +261,11 @@ class _HomepageState extends State<Homepage> {
                                 ),
                               ),
                             ])
-                            // Feedback display
                           ],
                         ),
                       ),
                       const SizedBox(height: 20),
-                      // Scrollable row of text editing boxes
+
                       SingleChildScrollView(
                         scrollDirection: Axis.horizontal,
                         child: Row(
