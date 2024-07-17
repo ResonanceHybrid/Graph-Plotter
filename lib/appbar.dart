@@ -22,26 +22,26 @@ class OtherPageAppBar extends StatelessWidget implements PreferredSizeWidget {
           style: TextStyle(
             color: Colors.white,
             fontWeight: FontWeight.bold,
-            fontSize: 20, // Adjust font size as needed
+            fontSize: 20, 
           ),
         ),
         centerTitle: true,
 
-        backgroundColor: kblue, // Change to your preferred color
-        toolbarHeight: 80, // Adjust toolbar height as needed
-        elevation: 0, // Remove elevation to avoid shadow under app bar
+        backgroundColor: kblue, 
+        toolbarHeight: 80, 
+        elevation: 0, 
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.only(
-            bottomLeft: Radius.circular(10), // Adjust the border radius
-            bottomRight: Radius.circular(10), // Adjust the border radius
+            bottomLeft: Radius.circular(10), 
+            bottomRight: Radius.circular(10), 
           ),
         ),
-        // Adjust the shadow blur radius
+        
       ),
     );
   }
 
   @override
   Size get preferredSize =>
-      Size.fromHeight(64); // Specify the preferred size of the app bar
+      Size.fromHeight(64); 
 }
